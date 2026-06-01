@@ -60,6 +60,21 @@ Stores borrowing records.
 
 ---
 
+## Task 1
+Implemented:
+- Database Creation
+- Table Creation
+- Primary Key
+- Foreign Key
+- Insert Queries
+- Basic SELECT queries
+
+## Task 2
+- INSERT INTO queries for adding records
+- Handling missing values using NULL and DEFAULT
+- UPDATE queries using WHERE condition
+- DELETE queries using WHERE condition
+
 ## Technologies Used
 - MySQL
 - SQL
@@ -68,13 +83,20 @@ Stores borrowing records.
 ---
 
 ## DBMS Concepts Covered
-- Database Schema Design
-- Normalization
-- Primary Key
-- Foreign Key
-- Constraints
-- ER Diagram
-- One-to-Many Relationships
+- Database Creation
+- Table Creation
+- Primary Keys
+- Foreign Keys
+- Entity Relationships
+- Data Insertion using INSERT INTO
+- Handling NULL and DEFAULT values
+- Data Retrieval using SELECT
+- Data Modification using UPDATE
+- Data Deletion using DELETE
+- WHERE Conditions
+- Relational Database Design
+- Auto Increment
+- Constraints and Integrity
 
 ---
 
@@ -89,9 +111,6 @@ The ER Diagram represents the relationships between Authors, Books, Students, an
 - `README.md`
 
 ---
-
-## Conclusion
-This project demonstrates the implementation of a relational database system using MySQL for managing a library efficiently.
 
 ## Author
  Bidyadhar Jena
