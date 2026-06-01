@@ -107,6 +107,7 @@ The ER Diagram represents the relationships between Authors, Books, Students, an
 
 ## Project Files
 - `Library_Management.sql`
+- 'Library_Management-2.sql'
 - `ER_Diagram.pdf`
 - `README.md`
 
