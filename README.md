@@ -1,119 +1,150 @@
-# Library Management System Database
+Library Management System
 
-## Overview
-This project is a simple Library Management System Database developed using MySQL. The database is designed to manage books, authors, students, and borrowing records efficiently using relational database concepts.
+Project Overview
 
----
+This is a SQL-based Library Management System developed as part of the Elevate Labs SQL Developer Internship.
 
-## Features
-- Database creation using SQL
-- Multiple related tables
-- Primary Key and Foreign Key implementation
-- Sample data insertion
-- Relationship management between tables
-- Basic SQL queries for data retrieval
+The project demonstrates database creation, table relationships, data insertion, data retrieval, filtering, aggregation, and grouping operations using MySQL.
 
 ---
 
-## Tables Included
+Features
 
-### Authors
-Stores author information.
-
-| Column | Description |
-|---|---|
-| author_id | Unique ID for authors |
-| author_name | Name of the author |
-| country | Author's country |
-
-### Books
-Stores book details.
-
-| Column | Description |
-|---|---|
-| book_id | Unique ID for books |
-| title | Book title |
-| genre | Book genre |
-| price | Price of book |
-| author_id | Reference to Authors table |
-
-### Students
-Stores student information.
-
-| Column | Description |
-|---|---|
-| student_id | Unique ID for students |
-| student_name | Student name |
-| email | Student email |
-| phone | Contact number |
-
-### Borrow
-Stores borrowing records.
-
-| Column | Description |
-|---|---|
-| borrow_id | Unique borrow record ID |
-| student_id | Reference to Students table |
-| book_id | Reference to Books table |
-| borrow_date | Date of issue |
-| return_date | Return date |
+- Manage Authors information
+- Manage Books records
+- Manage Students details
+- Borrow and Return tracking system
+- Relational database design
+- SQL querying and data analysis
+- Aggregate functions and grouping
 
 ---
 
-## Task 1
-Implemented:
-- Database Creation
-- Table Creation
-- Primary Key
-- Foreign Key
-- Insert Queries
-- Basic SELECT queries
+Technologies Used
 
-## Task 2
-- INSERT INTO queries for adding records
-- Handling missing values using NULL and DEFAULT
-- UPDATE queries using WHERE condition
-- DELETE queries using WHERE condition
-
-## Technologies Used
 - MySQL
 - SQL
 - MySQL Workbench
 
 ---
 
-## DBMS Concepts Covered
+DBMS Concepts Covered
+
 - Database Creation
 - Table Creation
 - Primary Keys
 - Foreign Keys
+- Constraints
 - Entity Relationships
-- Data Insertion using INSERT INTO
-- Handling NULL and DEFAULT values
-- Data Retrieval using SELECT
-- Data Modification using UPDATE
-- Data Deletion using DELETE
+- INSERT Queries
+- NULL and DEFAULT handling
+- SELECT Queries
 - WHERE Conditions
-- Relational Database Design
-- Auto Increment
-- Constraints and Integrity
+- AND / OR Operators
+- LIKE Operator
+- BETWEEN Operator
+- ORDER BY
+- LIMIT
+- DISTINCT
+- Aliasing
+- Aggregate Functions
+- GROUP BY
+- HAVING Clause
+- Data Filtering and Projection
 
 ---
 
-## ER Diagram
-The ER Diagram represents the relationships between Authors, Books, Students, and Borrow tables.
+Project Structure
 
----
-
-## Project Files
 Library_Management_System/
 │
 ├── Library_Management.sql
 ├── Library_Management-2.sql
+├── Library_Management-3.sql
+├── Library_Management-4.sql
 ├── ER_Diagram.pdf
 └── README.md
 
 ---
 
-## Author
- Bidyadhar Jena
+Task 1 – Database Design
+
+Implemented:
+
+- Database creation
+- Table creation
+- Primary Keys
+- Foreign Keys
+- Insert queries
+- Basic SELECT queries
+
+File:
+
+- "Library_Management.sql"
+
+---
+
+Task 2 – SQL Operations
+
+Implemented:
+
+- INSERT INTO queries
+- NULL and DEFAULT handling
+- UPDATE with WHERE condition
+- DELETE with WHERE condition
+
+File:
+
+- "Library_Management-2.sql"
+
+---
+
+Task 3 – Basic SELECT Queries
+
+Implemented:
+
+- SELECT *
+- WHERE
+- AND / OR
+- LIKE
+- BETWEEN
+- ORDER BY
+- LIMIT
+- DISTINCT
+- Aliasing
+
+File:
+
+- "Library_Management-3.sql"
+
+---
+
+Task 4 – Aggregate Functions and Grouping
+
+Implemented:
+
+- COUNT()
+- SUM()
+- AVG()
+- MAX()
+- MIN()
+- GROUP BY
+- HAVING
+- ROUND()
+- COUNT DISTINCT
+
+File:
+
+- "Library_Management-4.sql"
+
+---
+
+Project Submitted By
+
+Bidyadhar Jena
+
+---
+
+Internship
+
+Elevate Labs SQL Developer Internship
