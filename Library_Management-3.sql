@@ -5,10 +5,6 @@
 -- Submitting by Bidyadhar Jena --
 -- ________________________________________ --
 
--- __________________________________________ --
--- Task 3 : Basic SELECT Queries
--- __________________________________________ --
-
 USE Library;
 
 -- SELECT all columns from Authors table
