@@ -4,7 +4,7 @@ Project Overview
 
 This is a SQL-based Library Management System developed as part of the Elevate Labs SQL Developer Internship.
 
-The project demonstrates database creation, table relationships, data insertion, data retrieval, filtering, aggregation, and grouping operations using MySQL.
+The project demonstrates database creation, table relationships, SQL operations, data retrieval, aggregation, grouping, and joins using MySQL.
 
 ---
 
@@ -14,9 +14,9 @@ Features
 - Manage Books records
 - Manage Students details
 - Borrow and Return tracking system
-- Relational database design
 - SQL querying and data analysis
 - Aggregate functions and grouping
+- SQL joins and relationships
 
 ---
 
@@ -38,6 +38,8 @@ DBMS Concepts Covered
 - Entity Relationships
 - INSERT Queries
 - NULL and DEFAULT handling
+- UPDATE Queries
+- DELETE Queries
 - SELECT Queries
 - WHERE Conditions
 - AND / OR Operators
@@ -50,6 +52,11 @@ DBMS Concepts Covered
 - Aggregate Functions
 - GROUP BY
 - HAVING Clause
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+- Multi-table Joins
 - Data Filtering and Projection
 
 ---
@@ -62,6 +69,7 @@ Library_Management_System/
 ├── Library_Management-2.sql
 ├── Library_Management-3.sql
 ├── Library_Management-4.sql
+├── Library_Management-5.sql
 ├── ER_Diagram.pdf
 └── README.md
 
@@ -136,6 +144,22 @@ Implemented:
 File:
 
 - "Library_Management-4.sql"
+
+---
+
+Task 5 – SQL Joins
+
+Implemented:
+
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN (using UNION)
+- Multi-table JOIN
+
+File:
+
+- "Library_Management-5.sql"
 
 ---
 
