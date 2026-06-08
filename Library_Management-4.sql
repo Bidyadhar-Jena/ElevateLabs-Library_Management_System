@@ -1,7 +1,7 @@
 -- Library Management System --
 -- _________________________ --
 
--- Project of Task 3 for Elevate Labs SQL Internship --
+-- Project of Task 4 for Elevate Labs SQL Internship --
 -- Submitting by Bidyadhar Jena --
 -- ________________________________________ --
 
