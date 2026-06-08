@@ -4,7 +4,7 @@ Project Overview
 
 This is a SQL-based Library Management System developed as part of the Elevate Labs SQL Developer Internship.
 
-The project demonstrates database creation, table relationships, SQL operations, data retrieval, aggregation, grouping, and joins using MySQL.
+The project demonstrates database creation, table relationships, SQL operations, data retrieval, aggregation, grouping, joins, and subqueries using MySQL.
 
 ---
 
@@ -17,6 +17,7 @@ Features
 - SQL querying and data analysis
 - Aggregate functions and grouping
 - SQL joins and relationships
+- Subqueries and nested queries
 
 ---
 
@@ -56,7 +57,12 @@ DBMS Concepts Covered
 - LEFT JOIN
 - RIGHT JOIN
 - FULL OUTER JOIN
-- Multi-table Joins
+- Multi-table JOIN
+- Subqueries
+- Nested Queries
+- Correlated Subqueries
+- Scalar Subqueries
+- EXISTS and IN Operators
 - Data Filtering and Projection
 
 ---
@@ -70,6 +76,7 @@ Library_Management_System/
 ├── Library_Management-3.sql
 ├── Library_Management-4.sql
 ├── Library_Management-5.sql
+├── Library_Management-6.sql
 ├── ER_Diagram.pdf
 └── README.md
 
@@ -160,6 +167,24 @@ Implemented:
 File:
 
 - "Library_Management-5.sql"
+
+---
+
+Task 6 – Subqueries and Nested Queries
+
+Implemented:
+
+- Subqueries in WHERE clause
+- Subqueries with IN
+- Subqueries with EXISTS
+- Scalar Subqueries
+- Correlated Subqueries
+- Subqueries in FROM clause
+- Nested Queries using =
+
+File:
+
+- "Library_Management-6.sql"
 
 ---
 
