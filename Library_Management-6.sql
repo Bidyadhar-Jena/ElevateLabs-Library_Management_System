@@ -1,7 +1,9 @@
--- Library_Management-6.sql
--- __________________________________________ --
--- Task 6 : Subqueries and Nested Queries
--- __________________________________________ --
+-- Library Management System --
+-- _________________________ --
+
+-- Project of Task 3 for Elevate Labs SQL Internship --
+-- Submitting by Bidyadhar Jena --
+-- ________________________________________ --
 
 USE Library;
 
